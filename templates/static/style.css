@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#simulation-results,
+#allocation-results,
+#free-result,
+#memory-state {
+    margin-top: 20px;
+}
+
+.visual-representation {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.visual-representation div {
+    border: 1px solid #000;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#memory-state p {
+    margin-bottom: 5px;
+}
